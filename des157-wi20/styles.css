@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: Heebo;
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#mySketch {
+  width: 800px;
+  height: 250px;
+}
+
+#container {
+  max-width: 1200px;
+  min-width: 800px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #e5edf1;
+  padding: 20px;
+  margin-top: 0px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ALL HEADERS */
+h1, h2, h3 {
+  color: #363636;
+  letter-spacing: 1.5px;
+}
+
+h2 {
+  font-size: 22px;
+  background-color: #d6daef;
+  padding: 8px;
+  margin-top: 0px;
+ }
+
+ header h2 {
+   background-color: #ffffff;
+   padding: 0px;
+ }
+
+ header {
+   padding-top: 15px;
+   padding-bottom: 15px;
+ }
+
+h3 {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 14px;
+}
+
+/*THREE MAIN BOXES */
+section, aside {
+  width: 30%;
+  background-color: #f2f6f8;
+  border: 2px solid #d6daef;
+  padding: 5px;
+  justify-content: center;
+}
+
+/* UNVISITED LINK */
+a:link {
+  font-size: 14px;
+  text-decoration: none;
+  color: #363636;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+}
+
+/* VISITED LINK */
+a:visited {
+  color: grey;
+}
+
+/* MOUSE OVER LINK */
+a:hover {
+  color: white;
+  font-weight: bold;
+  text-shadow: 0px 0px 2px grey;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  background-color: #e5edf1;
+  padding: 5px;
+}
