@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Function Experimentation</title>
+</head>
+<body>
+
+    <h1>JS Function Experimentation</h1>
+
+    <script>
+
+        var myInteger = prompt("Enter a whole number", "");
+        var nickname = prompt("What is your nickname?", "");
+        var city = ["San Francisco", "New York", "Los Angeles", "Beijing"];
+        var fahrenheit = ["10", "40", "70", "100"];
+
+        //random function
+        function randomInt(min,max){
+            return Math.floor( (max - min + 1) * Math.random() ) + min;
+        }
+
+        //greeting
+        function welcome(){
+          var name = prompt("Please provide your name.", "");
+          console.log(`Welcome ${name}.`);
+        }
+
+        //fahrenheit to celsius
+        function celsius(theFahrenheit){
+          return (5/9) * (theFahrenheit-32);
+        }
+
+        //weather information
+        function weather (temperature, cities){
+
+          for (var i=0; i<cities.length; i++){
+            var theCelsius = Math.floor(celsius(fahrenheit[i]));
+            console.log(`${nickname}, It is ${temperature[i]} degrees Fahrenheit in ${cities[randomInt(0,cities.length-1)]}. This is ${theCelsius} degrees in Celsius.`);
+          }
+        }
+
+        //welcome message and weather information
+        function theMessage(){
+        console.log(welcome() + weather(fahrenheit, city));
+        }
+
+
+        if(parseInt(myInteger)){
+          theMessage();
+          console.log("You entered an integer in the beginning, so you get to see these weather messages.");
+        }
+
+        else{
+          console.log("You didn't enter an integer, so you won't see any weather messages. Refresh the page to try again.");
+        }
+
+    </script>
+
+</body>
+</html>
