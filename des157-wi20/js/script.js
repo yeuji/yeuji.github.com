@@ -12,7 +12,7 @@ function setup() {
     }
 
     else {
-    strokeWeight(5);
+    strokeWeight(3);
     fill("#d6daef");
     }
       var circSize = random(100);
