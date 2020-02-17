@@ -1,0 +1,117 @@
+body {
+  text-align: center;
+  font-family: Karla;
+  font-weight: 700;
+}
+
+/*change background color*/
+.one {
+    background: linear-gradient(270deg, #a8edea, #fed6e3);
+    transition: all 2s;
+}
+
+.two {
+  background: linear-gradient(270deg, #accbee, #e7f0fd);
+  transition: all 2s;
+}
+
+.three {
+  background: linear-gradient(270deg, #fff1eb, #ace0f9);
+  transition: all 2s;
+}
+
+/*header*/
+h1 {
+  padding: 30px;
+  color: white;
+}
+
+hr {
+  border: 2px solid white;
+  opacity: 0.5;
+}
+
+/*secion that holds the images*/
+div {
+  display: flex;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+img {
+   padding: 10px;
+   width: 270px;
+   border-radius: 100em;
+
+ }
+
+.thesection {
+  padding: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 100em;
+  background-color: white;
+  box-shadow: 0 2px 8px 0 lightgrey;
+}
+
+/*paragraph in the popup*/
+
+p {
+  line-height: 30px;
+}
+
+/*animation that makes the images go big*/
+@keyframes pop{
+  50%  {transform: scale(1.1);}
+}
+
+img:hover {
+  animation: pop 0.3s linear 1;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+
+
+}
+
+#content {
+  padding: 50px;
+  text-align: left;
+}
+
+#container {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  background-color: white;
+  box-shadow: 0 2px 4px 0 lightgrey;
+  border-radius: 1em;
+}
+
+#close {
+  padding: 0px;
+  color: black;
+  font-size: 28px;
+  position: absolute;
+  top: 0.5em;
+  right: 1em;
+}
+
+#close:hover {
+  cursor: pointer;
+}
+
+/*clinks*/
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: white;
+}
