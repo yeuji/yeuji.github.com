@@ -42,6 +42,15 @@ div p {
   padding: 25px 28px 0px 28px;
 }
 
+#sketchesP p {
+  padding: 0px 28px 0px 28px;
+  text-decoration: underline;
+}
+
+ul {
+  font-size: 14px;
+}
+
 a {
   text-decoration: none;
   font-size: 14px;
