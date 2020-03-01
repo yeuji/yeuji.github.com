@@ -1,0 +1,135 @@
+body {
+  width: 85%;
+  font-family: Heebo;
+  margin: auto;
+  text-align: center;
+  background-color: #FFFFF4;
+}
+
+nav {
+  text-align: right;
+  padding: 40px 0px 40px 40px;
+}
+
+nav a {
+  margin-right: 30px;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+nav a:last-child {
+  border-bottom: 3px solid #A5C54D;
+  margin-right: 0px;
+}
+
+form {
+  font-size: 16px;
+}
+
+label {
+  margin-right: 10px;
+  font-weight: 500;
+}
+
+input {
+  padding: 12px 35px 12px 35px;
+  margin-bottom: 10px;
+  border-radius: 100px;
+  border: 2px solid #7EBA57;
+}
+
+p {
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+section label {
+  color: white;
+  background: linear-gradient(90deg, #A3D463, #7AD463);
+  border: none;
+  padding: 10px;
+  border-radius: 100px;
+}
+
+section label:hover{
+  cursor: pointer;
+}
+
+#other {
+  margin-top: 30px;
+  width: 50px;
+}
+
+#donate {
+  border: none;
+  background-color: #91C77F;
+  color: white;
+  padding: 12px 40px 12px 40px;
+  border-radius: 100px;
+  font-weight: 500;
+  box-shadow: 1px 1px 5px lightgrey;
+  letter-spacing: 0.5px;
+}
+
+#donate:hover {
+  cursor: pointer;
+  background: linear-gradient(90deg, #A3D463, #7AD463);
+}
+
+div {
+    margin: auto;
+    font-weight: 400;
+    display: none;
+    position: fixed;
+    width: 20%;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 lightgrey;
+    border-radius: 1em;
+}
+
+div p {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.invisible {
+    display: none;
+}
+
+.visible {
+  display: block;
+  position: absolute;
+  top: 35%;
+  left: 40%;
+  padding: 50px 20px 50px 20px;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 0px;
+  padding: 10px;
+}
+
+#close {
+  padding: 0px;
+  color: black;
+  font-size: 28px;
+  position: absolute;
+  top: 0.5em;
+  right: 1em;
+}
+
+#close:hover {
+  cursor: pointer;
+}
+
+footer p {
+  font-size: 12px;
+  padding: 20px;
+  font-weight: 500;
+}

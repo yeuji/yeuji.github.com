@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Studio 4</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Heebo:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+
+    <nav>
+      <a href="index2.html">Home</a>
+      <a href="#">About</a>
+      <a href="tips.html">Tips</a>
+      <a href="calculator.html">Calculator</a>
+      <a href="donation.html">Donations</a>
+    </nav>
+
+    <h1>Donate to Save the Ocean<h1>
+
+    <form id="myForm">
+      <label>Name</label>
+      <input type="text" placeholder="Annie Deng"></input><br>
+      <label>Email</label>
+      <input type="text" placeholder="annie@live.com"></input><br><br>
+
+      <section>
+      <p><strong>Please select an amount to donate:</strong></p>
+      <input type="radio" name="money" id="s1" value="$10">
+      <label for="s1"> $10</label>
+      <input type="radio" name="money" id="s2" value="$20">
+      <label for="s2"> $20</label>
+      <input type="radio" name="money" id="s3" value="$30">
+      <label for="s3"> $30</label>
+      <input type="text" placeholder="$Other" id="other"></input><br><br><br>
+      <input type="submit" value="DONATE"id="donate"></input>
+      </section>
+    </form>
+
+    <div class="invisible" id="madlib">
+        <p></p>
+        <div id="close">close</div>
+    </div>
+
+
+<!--FOOTER-->
+    <footer>
+      <p><a href="https://validator.w3.org/check?uri=referer">Valid HTML</a> | <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a></p>
+    </footer>
+
+      <script src="script.js"></script>
+
+  </body>
+</html>
