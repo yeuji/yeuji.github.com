@@ -58,6 +58,7 @@ section label {
 
 section label:hover{
   cursor: pointer;
+  background: linear-gradient(90deg,#7AD463, #A3D463);
 }
 
 #other {
@@ -81,32 +82,34 @@ section label:hover{
   background: linear-gradient(90deg, #A3D463, #7AD463);
 }
 
-div {
-    margin: auto;
-    font-weight: 400;
-    display: none;
-    position: fixed;
-    width: 20%;
-    background-color: white;
-    box-shadow: 0 2px 4px 0 lightgrey;
-    border-radius: 1em;
-}
-
-div p {
-  font-size: 13px;
-  line-height: 20px;
-}
-
 .invisible {
     display: none;
 }
 
 .visible {
+  margin: auto;
+  font-weight: 400;
   display: block;
   position: absolute;
-  top: 35%;
-  left: 40%;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -200px;
   padding: 50px 20px 50px 20px;
+  width: 400px;
+  height: 200px;
+  background-color: white;
+  box-shadow: 0 2px 4px 0 lightgrey;
+  border-radius: 1em;
+}
+
+div p {
+  font-size: 13px;
+  line-height: 20px;
+  width: 80%;
+  text-align: left;
+  margin: auto;
+  padding-top: 20px;
 }
 
 h3 {

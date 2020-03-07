@@ -21,26 +21,29 @@
 
     <form id="myForm">
       <label>Name</label>
-      <input type="text" placeholder="Annie Deng"></input><br>
+      <input type="text" placeholder="Annie Deng" id="name"><br>
       <label>Email</label>
       <input type="text" placeholder="annie@live.com"></input><br><br>
 
       <section>
       <p><strong>Please select an amount to donate:</strong></p>
-      <input type="radio" name="money" id="s1" value="$10">
+      <input type="radio" name="money" id="s1" value="10">
       <label for="s1"> $10</label>
-      <input type="radio" name="money" id="s2" value="$20">
+      <input type="radio" name="money" id="s2" value="20">
       <label for="s2"> $20</label>
-      <input type="radio" name="money" id="s3" value="$30">
+      <input type="radio" name="money" id="s3" value="30">
       <label for="s3"> $30</label>
-      <input type="text" placeholder="$Other" id="other"></input><br><br><br>
-      <input type="submit" value="DONATE"id="donate"></input>
+      <input type="text" placeholder="$Other" id="other"><br><br><br>
+      <input type="submit" value="DONATE"id="donate">
       </section>
     </form>
 
     <div class="invisible" id="madlib">
-        <p></p>
-        <div id="close">close</div>
+        <div id="close">x</div>
+        <div id="popup">
+          
+        </div>
+
     </div>
 
 
