@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Sustainable Living: Calculator</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="calculator.css">
+    <link href="https://fonts.googleapis.com/css?family=Heebo:400,500,700" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.min.js"></script>
+  </head>
+
+  <body>
+
+    <nav>
+      <a href="index2.html">Home</a>
+      <a href="#">About</a>
+      <a href="tips.html">Tips</a>
+      <a href="calculator.html">Calculator</a>
+      <a href="donation.html">Donations</a>
+    </nav>
+
+    <h1>Calculate Your Environmental Impact</h1>
+    <p style="font-size:18px;">Plastic pollution is detrimental to our planet. How are you impacting the world?</p><br>
+
+    <form>
+      <p>Enter the number of single-use plastic water bottles you used per week:</p>
+      <input type="text" placeholder="1" id="userinput">
+      <input type="submit" value="CALCULATE" id="calculate">
+    </form>
+
+    <div id="circle"></div>
+    <div id="circle2"></div>
+
+    <div id="answer" class="invisible">
+      <p><strong>Your environmental impact in 1 year:</strong></p>
+      <div id="paragraph">
+        <p></p>
+      </div>
+
+      <div id="flexcontainer">
+        <h2 id="co2"></h2>
+        <img src="images/cloud.png" alt="cloud" width="70">
+      </div>
+    </div>
+
+
+<!--FOOTER-->
+    <footer>
+      <p><a href="https://validator.w3.org/check?uri=referer">Valid HTML</a> | <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a></p>
+    </footer>
+
+      <script src="calculator.js"></script>
+
+  </body>
+</html>

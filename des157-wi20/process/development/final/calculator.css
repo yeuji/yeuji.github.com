@@ -1,0 +1,139 @@
+body {
+  width: 85%;
+  font-family: Heebo;
+  margin: auto;
+  text-align: center;
+  background-color: #FFFFF4;
+}
+
+nav {
+  text-align: right;
+  padding: 40px 0px 40px 40px;
+}
+
+nav a {
+  margin-right: 30px;
+  font-size: 14px;
+  padding-bottom: 10px;
+  letter-spacing: 0.5px;
+}
+
+nav a:hover {
+  border-top: 3px solid #A5C54D;
+  padding-top: 10px;
+}
+
+nav a:nth-child(4) {
+  border-bottom: 3px solid #A5C54D;
+}
+
+nav a:last-child {
+  margin-right: 0px;
+}
+
+h1 {
+  margin-top: 40px;
+  letter-spacing: 1px;
+}
+
+form {
+  padding: 15px;
+}
+
+form p {
+  font-weight: 500;
+}
+
+#userinput {
+  padding: 12px 35px 12px 35px;
+  border-radius: 25px;
+  border: 3px solid #7EBA57;
+  width: 30px;
+  font-weight: 500;
+  text-align: center;
+  margin-right: 10px;
+}
+
+#calculate {
+  border: none;
+  background-color: #91C77F;
+  color: white;
+  padding: 15px 38px 15px 38px;
+  border-radius: 25px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+
+#calculate:hover {
+  background: linear-gradient(90deg, #A3D463, #7AD463);
+}
+
+p {
+  line-height: 25px;
+  font-size: 15px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+#answer {
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+#co2 {
+  background: -webkit-linear-gradient(#A3D463, #7AD463);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#flexcontainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#flexcontainer h2 {
+  padding-right: 10px;
+}
+
+#circle {
+  background: linear-gradient(90deg, #7AD463, #A3D463);
+  border-radius: 50%;
+  width: 550px;
+  height: 550px;
+  position: fixed;
+  margin-top: 40px;
+  margin-left: -350px;
+}
+
+#circle2 {
+  background: linear-gradient(90deg, #A3D463, #7AD463);
+  border-radius: 50%;
+  width: 550px;
+  height: 550px;
+  position: fixed;
+  margin-top: 40px;
+  margin-left: 900px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 12px;
+  letter-spacing: 1px;
+}
