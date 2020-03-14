@@ -86,6 +86,7 @@ li {
 }
 
 hr {
+  align: left;
   height: 5px;
   background: linear-gradient(90deg, #A3D463 0%, #7AD463 100%);;
   border: none;
